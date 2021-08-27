@@ -1,2 +1,13 @@
 # AtianConfig
-Config file to share between my computers
+
+Config files to share between my computers
+
+## Install
+
+To run powershell scripts:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+```
+
+
