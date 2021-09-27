@@ -1,6 +1,8 @@
 Import-Module git-pwsh
 . "$(Split-Path -Parent $PROFILE)\Modules\git-pwsh\git-prompt.ps1"
 
+Import-Module -Name Terminal-Icons
+
 Import-Module PSReadline
 Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 

@@ -22,3 +22,6 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 Write-Host "INSTALL nerd-fonts"
 scoop bucket add nerd-fonts
 
+Install-Module -Name Terminal-Icons -Repository PSGallery
+
+
