@@ -23,11 +23,13 @@ Copy-Item .\shell\profile.ps1 $PROFILE
 Write-Host "INSTALL scoop"
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 
-Write-Host "INSTALL nerd-fonts"
+Write-Host "INSTALL tools"
+scoop install sudo
+
 scoop bucket add nerd-fonts
+scoop install LiberationMono-NF
 
 Install-Module -Name Terminal-Icons -Repository PSGallery
-
 
 # Run profile
 . $PROFILE
