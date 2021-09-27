@@ -16,3 +16,9 @@ Write-Host "SET PROFILE"
 Copy-Item $PROFILE .\shell\profile_backup.ps1
 Copy-Item .\shell\profile.ps1 $PROFILE
 
+Write-Host "INSTALL scoop"
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+
+Write-Host "INSTALL nerd-fonts"
+scoop bucket add nerd-fonts
+
