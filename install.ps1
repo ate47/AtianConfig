@@ -29,6 +29,8 @@ scoop install sudo
 scoop bucket add nerd-fonts
 scoop install LiberationMono-NF
 
+scoop install vim
+
 Install-Module -Name Terminal-Icons -Repository PSGallery
 
 # Run profile
