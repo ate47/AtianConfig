@@ -29,7 +29,7 @@ scoop install sudo
 scoop bucket add nerd-fonts
 scoop install LiberationMono-NF
 
-scoop install vim marp
+scoop install vim marp watchexec
 
 Install-Module -Name Terminal-Icons -Repository PSGallery
 
