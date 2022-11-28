@@ -1,0 +1,12 @@
+loader.cattree.futureHDTLocation=cfuture_msd.hdt
+loader.cattree.loadertype=disk
+loader.cattree.location=cattree
+loader.cattree.memoryFaultFactor=1
+loader.disk.futureHDTLocation=future_msd.hdt
+loader.disk.location=gen
+loader.type=cat
+parser.ntSimpleParser=true
+loader.disk.compressWorker=3
+profiler=true
+profiler.output=profmsd.opt
+dictionary.type=dictionaryMultiObj
